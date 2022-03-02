@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<UDOS>
+  <!--Prestamos recibidos-->
+  <UDO>
+    <Code>HCO_OOFR</Code>
+    <Name>Prestamos recibidos</Name>
+    <TableName>HCO_OOFR</TableName>
+    <LogTable></LogTable>
+    <TYPE>3</TYPE>
+    <MngSeries>N</MngSeries>
+    <CanDelete>N</CanDelete>
+    <CanClose>N</CanClose>
+    <CanCancel>N</CanCancel>
+    <ExtName></ExtName>
+    <CanFind>Y</CanFind>
+    <CanYrTrnsf>N</CanYrTrnsf>
+    <CanDefForm>N</CanDefForm>
+    <EnaEnhForm>N</EnaEnhForm>
+    <CanLog>N</CanLog>
+    <OvrWrtDll>N</OvrWrtDll>
+    <ChildTables>
+      <ChildTable>
+        <TableName>HCO_OFR1</TableName>
+      </ChildTable>
+    </ChildTables>
+    <FormColumns>      
+    </FormColumns>
+  </UDO>
+  <!--Prestamos efectuados-->
+  <UDO>
+    <Code>HCO_OOFE</Code>
+    <Name>Prestamos efectuados</Name>
+    <TableName>HCO_OOFE</TableName>
+    <LogTable></LogTable>
+    <TYPE>3</TYPE>
+    <MngSeries>N</MngSeries>
+    <CanDelete>N</CanDelete>
+    <CanClose>N</CanClose>
+    <CanCancel>N</CanCancel>
+    <ExtName></ExtName>
+    <CanFind>Y</CanFind>
+    <CanYrTrnsf>N</CanYrTrnsf>
+    <CanDefForm>N</CanDefForm>
+    <EnaEnhForm>N</EnaEnhForm>
+    <CanLog>N</CanLog>
+    <OvrWrtDll>N</OvrWrtDll>
+    <ChildTables>
+      <ChildTable>
+        <TableName>HCO_OFE1</TableName>
+      </ChildTable>
+    </ChildTables>
+    <FormColumns>
+    </FormColumns>
+  </UDO>
+  <!--Polizas-->
+  <UDO>
+    <Code>HCO_OPOL</Code>
+    <Name>Polizas</Name>
+    <TableName>HCO_OPOL</TableName>
+    <LogTable></LogTable>
+    <TYPE>3</TYPE>
+    <MngSeries>N</MngSeries>
+    <CanDelete>N</CanDelete>
+    <CanClose>N</CanClose>
+    <CanCancel>N</CanCancel>
+    <ExtName></ExtName>
+    <CanFind>Y</CanFind>
+    <CanYrTrnsf>N</CanYrTrnsf>
+    <CanDefForm>N</CanDefForm>
+    <EnaEnhForm>N</EnaEnhForm>
+    <CanLog>N</CanLog>
+    <OvrWrtDll>N</OvrWrtDll>
+    <ChildTables>
+      <ChildTable>
+        <TableName>HCO_POL1</TableName>
+      </ChildTable>
+    </ChildTables>
+    <FormColumns>
+    </FormColumns>
+  </UDO>
+</UDOS>

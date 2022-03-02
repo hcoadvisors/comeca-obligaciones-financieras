@@ -1,0 +1,1 @@
+SELECT "TableName" From OUTB WHERE "TableName" = '{0}' AND "Descr" = '{1}'

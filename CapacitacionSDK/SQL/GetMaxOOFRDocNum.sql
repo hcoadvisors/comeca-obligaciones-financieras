@@ -1,0 +1,1 @@
+SELECT IFNULL(MAX(T0."DocNum"), 0) + 1 "DocNum" FROM "@HCO_OOFR" T0

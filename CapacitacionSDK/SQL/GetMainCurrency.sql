@@ -1,0 +1,1 @@
+SELECT "MainCurncy" FROM OADM

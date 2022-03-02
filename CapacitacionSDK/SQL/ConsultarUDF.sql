@@ -1,0 +1,1 @@
+SELECT "AliasID" From CUFD WHERE "AliasID" = '{0}' AND "TableID" = '{1}'

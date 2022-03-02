@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<UserTables>
+	<UserTable>
+		<TableName>HCO_OOFR</TableName>
+		<Descr>Prestamos recibidos</Descr>
+		<TblNum>3</TblNum>
+		<ObjectType>3</ObjectType>
+		<UsedInObj/>
+		<LogTable/>
+	</UserTable>
+  <UserTable>
+    <TableName>HCO_OFR1</TableName>
+    <Descr>Cuotas prest. recibidos</Descr>
+    <TblNum>4</TblNum>
+    <ObjectType>4</ObjectType>
+    <UsedInObj/>
+    <LogTable/>
+  </UserTable>
+  <UserTable>
+    <TableName>HCO_OOFE</TableName>
+    <Descr>Prestamos efectuados</Descr>
+    <TblNum>3</TblNum>
+    <ObjectType>3</ObjectType>
+    <UsedInObj/>
+    <LogTable/>
+  </UserTable>
+  <UserTable>
+    <TableName>HCO_OFE1</TableName>
+    <Descr>Cuotas prest. efectuados</Descr>
+    <TblNum>4</TblNum>
+    <ObjectType>4</ObjectType>
+    <UsedInObj/>
+    <LogTable/>
+  </UserTable>
+  <UserTable>
+    <TableName>HCO_OPOL</TableName>
+    <Descr>Polizas</Descr>
+    <TblNum>3</TblNum>
+    <ObjectType>3</ObjectType>
+    <UsedInObj/>
+    <LogTable/>
+  </UserTable>
+  <UserTable>
+    <TableName>HCO_POL1</TableName>
+    <Descr>Cuotas polizas</Descr>
+    <TblNum>4</TblNum>
+    <ObjectType>4</ObjectType>
+    <UsedInObj/>
+    <LogTable/>
+  </UserTable>
+</UserTables>

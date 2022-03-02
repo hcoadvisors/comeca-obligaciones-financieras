@@ -1,0 +1,1 @@
+SELECT "Rate" FROM ORTT WHERE "Currency" = '{0}' AND "RateDate" = '{1}'
