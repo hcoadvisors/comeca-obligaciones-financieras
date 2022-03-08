@@ -632,7 +632,7 @@ namespace ObligacionesFinan.Formularios
 
             if (periodicidad.Equals("D"))
             {
-                fechaInicial = fechaOriginal.AddDays(1);
+                fechaInicial = fechaInicial.AddDays(1);
                 if (baseTasa == "1")
                     plazo = 30 * plazo;
                 else
@@ -693,8 +693,8 @@ namespace ObligacionesFinan.Formularios
 
             if (baseTasa == "1")
             {
-                plazo = 30 * Math.Abs((fechaInicial.Month - fechaOriginal.Month) + 12 * (fechaInicial.Year - fechaOriginal.Year));
-                plazo += (fechaOriginal - new DateTime(fechaOriginal.Year, fechaOriginal.Month, diaPago)).Days;
+                diasInteres = 30 * Math.Abs((fechaInicial.Month - fechaOriginal.Month) + 12 * (fechaInicial.Year - fechaOriginal.Year));
+                diasInteres += (new DateTime(fechaOriginal.Year, fechaOriginal.Month, diaPago) - fechaOriginal).Days + 1;
             }
             else
                 diasInteres = (fechaInicial - fechaOriginal).Days;

@@ -36,7 +36,7 @@ namespace ObligacionesFinan.Formularios
                                 var comision = (double)dtCuotas.GetValue("Comision", pVal.Row);
                                 var seguros = (double)dtCuotas.GetValue("U_HCO_Insuran", pVal.Row);
                                 var otros = (double)dtCuotas.GetValue("U_HCO_Other", pVal.Row);
-                                if (pago < (interes + comision))
+                                if (pago < (interes + comision + seguros + otros))
                                 {
                                     SBO_Application.StatusBar.SetText("El valor del pago debe ser al menos el interes, la comisión, seguros y otros.");
                                     dtCuotas.SetValue("U_HCO_PayAmt", pVal.Row, this.valorPago);
@@ -444,7 +444,7 @@ namespace ObligacionesFinan.Formularios
                 }
             }
             else
-                return (true, "No hay abonos a capital, comisión, seguros y otros que hacer");
+                return (true, "No hay abonos a capital, comisión, seguros u otros que pagar");
         }
 
         protected (bool, string) crearOrden(int i)
